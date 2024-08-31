@@ -2,7 +2,7 @@ import React from 'react';
 
 const Buttons = () => {
   return (
-    <div className='flex justify-center items-center mt-12'>
+    <div className='flex justify-center items-center mt-8'>
       <input 
         type="text" 
         placeholder='Your email' 

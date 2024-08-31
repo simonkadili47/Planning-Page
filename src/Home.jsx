@@ -3,6 +3,7 @@ import Header from './Components/Header'
 import Body from './Components/Body'
 import Buttons from './Components/Buttons'
 import Cards from './Components/Cards'
+import Footer from './Components/Footer'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Body/>
         <Buttons/>
         <Cards/>
+        <Footer/>
 
 
     </div>
