@@ -51,7 +51,7 @@ const Body = () => {
   }, [index, isTyping, animationState]);
 
   return (
-    <div className="flex flex-col items-center text-black pt-0 mt-10">
+    <div className="flex flex-col items-center text-black pt-0 mt-6">
       {/* Container for typing effect text */}
       <div className="font-bold text-3xl text-center w-full max-w-xl relative">
         <p className={`absolute inset-0 flex items-center justify-center ${animationState}`}>

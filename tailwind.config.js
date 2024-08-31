@@ -7,6 +7,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        customGreen: '#5ecca0',
+        custompurple: '#cb9bfa',
+        customyellow:'#f8fd91'  
+      },
       keyframes: {
         slideIn: {
           '0%': { transform: 'translateX(-100%)', opacity: '0' },

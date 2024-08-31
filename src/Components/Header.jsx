@@ -20,7 +20,7 @@ const Header = () => {
             <a href="#">Log In</a>
           </button>
         </div>
-        <div className="border px-4 py-2 rounded-full bg-black text-white">
+        <div className="border px-4 py-2 rounded-full hover:bg-gray-400 hover:border-customGreen bg-black text-white">
           <button>Get Started</button>
         </div>
       </div>
