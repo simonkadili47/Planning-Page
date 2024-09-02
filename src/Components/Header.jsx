@@ -15,12 +15,12 @@ const Header = () => {
       
       {/* Right section with buttons */}
       <div className="flex space-x-2 sm:space-x-4 mt-4 sm:mt-0 mr-4 sm:mr-24">
-        <div className="border px-3 sm:px-4 py-1 sm:py-2 rounded-full hover:bg-gray-200 hover:border-gray-400">
+        <div className="border px-3 sm:px-4 py-1 sm:py-2 rounded-full hover:bg-white-200 hover:border-gray-400">
           <button>
             <a href="#">Log In</a>
           </button>
         </div>
-        <div className="border px-3 sm:px-4 py-1 sm:py-2 rounded-full hover:bg-gray-400 hover:border-customGreen bg-black text-white">
+        <div className="border px-3 sm:px-4 py-1 sm:py-2 rounded-full hover:bg-black hover:border-black bg-black text-white">
           <button>Get Started</button>
         </div>
       </div>

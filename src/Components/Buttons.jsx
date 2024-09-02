@@ -13,7 +13,7 @@ const Buttons = () => {
           className="border px-10 py-1 sm:px-12 sm:py-2 rounded-full bg-white border-black text-black font-bold"
         />
       </div>
-      <div className="border px-3 sm:px-4 ml-2 py-1 sm:py-2 rounded-full hover:bg-gray-400 hover:border-customGreen bg-black text-white mt-4 sm:mt-0">
+      <div className="border px-3 sm:px-4 ml-2 py-1 sm:py-2 rounded-full hover:bg-black hover:border-black bg-black text-white mt-4 sm:mt-0">
         <button>
           <a href="#" className='text-white font-bold block text-center'>
             Sign Up
