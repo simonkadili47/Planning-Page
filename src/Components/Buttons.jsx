@@ -1,15 +1,20 @@
 import React from 'react';
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Buttons = () => {
   return (
     <div className='flex flex-col sm:flex-row justify-center items-center mt-6 sm:mt-8'>
-      <input 
-        type="text" 
-        placeholder='Your email' 
-        className='rounded-full p-2 sm:p-3 border px-3 sm:px-8 border-black mb-3 sm:mb-0 sm:mr-3 w-4/5 sm:w-auto text-sm sm:text-base'
-      />
-      <div className='w-2/5 sm:w-auto mx-4 sm:mx-0 border border-black bg-black hover:bg-gray-300 hover:border-customGreen text-white rounded-full p-2 sm:p-3'>
-        <button className='w-full text-sm sm:text-base'>
+      <div className="relative flex items-center">
+        {/* Icon positioned absolutely */}
+        <FaTelegramPlane className="absolute left-3 text-gray-500" />
+        <input 
+          type="text" 
+          placeholder='Your email' 
+          className="border px-10 py-1 sm:px-12 sm:py-2 rounded-full bg-white border-black text-black font-bold"
+        />
+      </div>
+      <div className="border px-3 sm:px-4 ml-2 py-1 sm:py-2 rounded-full hover:bg-gray-400 hover:border-customGreen bg-black text-white mt-4 sm:mt-0">
+        <button>
           <a href="#" className='text-white font-bold block text-center'>
             Sign Up
           </a>

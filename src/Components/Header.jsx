@@ -2,13 +2,13 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex flex-col sm:flex-row items-center justify-between ml-4 sm:ml-10 mt-4 sm:mt-8 text-black bg-white font-bold">
+    <div className="flex flex-col sm:flex-row items-center justify-between ml-4 sm:ml-10 mt-2 sm:mt-4 text-black bg-white font-bold">
       {/* Left section with text */}
       <div className="flex items-center">
         <div className="text-lg sm:text-xl">
-          <h1>Lyf</h1>
+          <h1>Lyf -)</h1>
         </div>
-        <div className="ml-1 sm:ml-3 text-sm sm:text-base">
+        <div className="ml-1 pl-3 sm:ml-3 text-sm sm:text-base">
           <h1>/insuarance@tiropay.au</h1>
         </div>
       </div>
