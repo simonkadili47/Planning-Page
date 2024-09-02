@@ -5,15 +5,15 @@ import 'animate.css/animate.min.css';
 
 const AnimatedCard = ({ children, delay = 0 }) => {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1,    // Trigger when 10% of the element is visible
+    triggerOnce: true, 
+    threshold: 0.1,    
   });
 
   return (
     <div
       ref={ref}
       className={`transition-opacity duration-1000 ${inView ? 'animate__animated animate__fadeInUp' : 'opacity-0'}`}
-      style={{ animationDelay: `${delay}ms` }} // Apply delay here
+      style={{ animationDelay: `${delay}ms` }}
     >
       {children}
     </div>
@@ -33,7 +33,7 @@ const Cards = () => {
       </div>
 
       {/* Cards Container with Padding */}
-      <div className="px-6 sm:px-12 lg:px-24"> {/* Adjust padding as needed */}
+      <div className="px-6 sm:px-12 lg:px-24">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Card 1 */}
           <AnimatedCard delay={100}>
@@ -51,7 +51,7 @@ const Cards = () => {
               </div>
               <div className="flex items-center justify-between mt-1">
                 <p className="text-white font-bold text-lg">14.20%</p>
-                <FaArrowCircleRight className="text-white text-xl group-hover:bg-black group-hover:p-1 group-hover:rounded-none transition-all duration-300" />
+                <FaArrowCircleRight className="text-white text-xl transition-all duration-300" />
               </div>
             </div>
           </AnimatedCard>
@@ -72,7 +72,7 @@ const Cards = () => {
               </div>
               <div className="flex items-center justify-between mt-4">
                 <p className="text-white font-bold text-lg">14.20%</p>
-                <FaArrowCircleRight className="text-white text-xl group-hover:bg-black group-hover:p-1 group-hover:rounded-none transition-all duration-300" />
+                <FaArrowCircleRight className="text-white text-xl transition-all duration-300" />
               </div>
             </div>
           </AnimatedCard>
@@ -93,7 +93,7 @@ const Cards = () => {
               </div>
               <div className="flex items-center justify-between mt-4">
                 <p className="text-black font-bold text-lg">11.20%</p>
-                <FaArrowCircleRight className="text-black text-xl group-hover:bg-white group-hover:p-1 group-hover:rounded-none transition-all duration-300" />
+                <FaArrowCircleRight className="text-black text-xl  transition-all duration-300" />
               </div>
             </div>
           </AnimatedCard>
@@ -114,7 +114,7 @@ const Cards = () => {
               </div>
               <div className="flex items-center justify-between mt-4">
                 <p className="text-black font-bold text-lg">8.20%</p>
-                <FaArrowCircleRight className="text-black text-xl group-hover:bg-white group-hover:p-1 group-hover:rounded-none transition-all duration-300" />
+                <FaArrowCircleRight className="text-black text-xl transition-all duration-300" />
               </div>
             </div>
           </AnimatedCard>
