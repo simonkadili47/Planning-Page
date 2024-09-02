@@ -21,8 +21,8 @@ const Cards = () => {
             <h2 className="text-sm font-semibold mb-2">STRATEGY</h2>
             <p className="text-xl font-bold text-black">Money Momentum</p>
             <div className="mt-3 text-sm text-black">
-              <p>Tract Premium helps you start sarver</p>
-              <p>investments insights covering</p>
+              <p>Tract Premium helps you start sarver investments insights covering</p>
+          
             </div>
           </div>
           <div className="border-b border-gray-400 mt-4"></div>
