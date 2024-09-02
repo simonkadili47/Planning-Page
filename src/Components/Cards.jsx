@@ -3,20 +3,20 @@ import { FaArrowCircleRight } from "react-icons/fa";
 
 const Cards = () => {
   return (
-    <div className="mt-8">
-      <div className="flex justify-between items-center text-xl font-bold text-black mb-6">
-        <div className="ml-10">
+    <div className="mt-8 px-4">
+      <div className="flex flex-col sm:flex-row justify-between items-center text-xl font-bold text-black mb-6">
+        <div className="mb-4 sm:mb-0">
           <h1>Featured Plans</h1>
         </div>
-        <div className="mr-24">
+        <div className="text-right">
           <p>Explore All</p>
         </div>
       </div>
 
       {/* Cards Container */}
-      <div className="flex gap-6 ml-10 justify-center items-center">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center gap-6">
         {/* Card 1 */}
-        <div className="w-64 h-60 bg-customGreen rounded-lg shadow-md p-4 flex flex-col justify-between hover:shadow-xl hover:scale-105 transform transition-transform duration-300 group">
+        <div className="w-full sm:w-64 h-60 bg-customGreen rounded-lg shadow-md p-4 flex flex-col justify-between hover:shadow-xl hover:scale-105 transform transition-transform duration-300 group">
           <div>
             <h2 className="text-sm font-semibold mb-2">STRATEGY</h2>
             <p className="text-xl font-bold text-black">Money Momentum</p>
@@ -36,7 +36,7 @@ const Cards = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="w-64 h-60 bg-black text-white rounded-lg shadow-md p-4 flex flex-col justify-between hover:shadow-xl hover:scale-105 transform transition-transform duration-300 group">
+        <div className="w-full sm:w-64 h-60 bg-black text-white rounded-lg shadow-md p-4 flex flex-col justify-between hover:shadow-xl hover:scale-105 transform transition-transform duration-300 group">
           <div>
             <h2 className="text-sm font-semibold mb-2">PLANS</h2>
             <p className="text-xl font-bold">Long-Term</p>
@@ -55,7 +55,7 @@ const Cards = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="w-64 h-60 bg-custompurple rounded-lg shadow-md p-4 flex flex-col justify-between hover:shadow-xl hover:scale-105 transform transition-transform duration-300 group">
+        <div className="w-full sm:w-64 h-60 bg-custompurple rounded-lg shadow-md p-4 flex flex-col justify-between hover:shadow-xl hover:scale-105 transform transition-transform duration-300 group">
           <div>
             <h2 className="text-sm font-semibold mb-2">STRATEGY</h2>
             <p className="text-xl text-black font-bold">Focussed</p>
@@ -74,7 +74,7 @@ const Cards = () => {
         </div>
 
         {/* Card 4 */}
-        <div className="w-64 h-60 bg-customyellow rounded-lg shadow-md p-4 flex flex-col justify-between hover:shadow-xl hover:scale-105 transform transition-transform duration-300 group">
+        <div className="w-full sm:w-64 h-60 bg-customyellow rounded-lg shadow-md p-4 flex flex-col justify-between hover:shadow-xl hover:scale-105 transform transition-transform duration-300 group">
           <div>
             <h2 className="text-sm font-semibold mb-2">PLANS</h2>
             <p className="text-xl font-bold text-black">Fixed Income</p>
