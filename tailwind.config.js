@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        outfit: ["Outfit"]
+      },
       colors: {
         customGreen: '#5ecca0',
         custompurple: '#cb9bfa',

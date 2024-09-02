@@ -1,17 +1,14 @@
-import React from 'react'
-import Home from './Home'
+import React from "react";
+import Home from "./Home";
 
 
 
 function App() {
-  
-
-  return (
-    <div>
-      <Home/>
-      
-    </div>
-  )
+    return (
+        <div className="font-outfit">
+            <Home/>
+        </div>
+    )
 }
 
 export default App
