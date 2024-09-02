@@ -22,18 +22,18 @@ const AnimatedCard = ({ children, delay = 0 }) => {
 
 const Cards = () => {
   return (
-    <div className="mt-8 px-4">
-      <div className="flex flex-col sm:flex-row justify-between items-center text-xl font-bold text-black mb-6">
-        <div className="mb-4 sm:mb-0">
+    <div className="container mx-auto mt-8 px-4">
+      <div className="flex flex-col sm:flex-row justify-between items-center text-black mb-6">
+        <div className="text-lg md:text-xl xl:text-2xl font-semibold">
           <h1>Featured Plans</h1>
         </div>
-        <div className="text-right">
+        <div className="text-right text-sm md:text-base font-semibold">
           <p>Explore All</p>
         </div>
       </div>
 
       {/* Cards Container with Padding */}
-      <div className="px-6 sm:px-12 lg:px-24">
+      <div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Card 1 */}
           <AnimatedCard delay={100}>
